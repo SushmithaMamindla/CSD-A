@@ -1,0 +1,54 @@
+PASSPORT AUTOMATION SYSTEM
+Overview-Overall Description
+The PAS acts as an interface between the ‘applicant’ and the ‘administrator’. This system tries to make the interface as simple as possible and at the same time not risk the security of the data stored in it. This minimizes the time duration in which the user receives the passport.
+Aim: To create an automated system of passport processes
+PROBLEM STATEMENT:
+                    Prior to the passport automation system, the process of passport dispatch was entirely manual, paper-based, and slow.
+                    Key Challenges:
+                     . Paper-heavy: Physical forms, hand-written registers, and paper files.
+                     . Long queues: Applicants stood in lines for hours to submit papers.
+                     . Manual verification: Background checks relied on physical mail to police stations.
+                     . No visibility: Tracking required in-person visits or waiting for postal letters.
+                     . High error rates: Typing mistakes and lost physical files were common.
+                           
+                          Passport Automation System is used in the effective dispatch of passport to all of the applicants. This system adopts a comprehensive approach to minimize the manual work and schedule resources, time in a cogent manner.
+
+The core of the system is to get the online registration form (with details such as name, address etc.,) filled by the applicant whose testament is verified for its genuineness by the Passport Automation System with respect to the already existing information in the database.
+
+This forms the first and foremost step in the processing of passport application. After the first round of verification done by the system, the information is in turn forwarded to the regional administrator’s (Ministry of External Affairs) office.
+
+The application is then processed manually based on the report given by the system, and any forfeiting identified can make the applicant liable to penalty as per the law.
+The system also provides the applicant the list of available dates for appointment to ‘document verification’ in the administrator’s office, from which they can select one. The system forwards the necessary details to the police for its separate verification whose report is then presented to the administrator.
+
+The administrator will be provided with an option to display the current status of application to the applicant, which they can view in their online interface. After all the necessary criteria have been met, the original information (data) is added to the database.
+
+2. Software Requirement Specification(SRS):
+Passport automation system is an interface between the applicant and the authority responsible for the issue of Passport. It aims at improving the efficiency in the issue of passport and reduces the complexities involved in it to a great extent.
+Functional Requirements
+User Registration & Login:       Create secure accounts, recover credentials, and authenticate users via email or phone.
+Application Form Management:     Fill out, edit, and submit digital passport application forms.
+Document & Biometric Upload:     Attach scanned identity proofs, photos, and biometric information.
+Online Fee Payment:              Integrate with secure external banking or payment gateways.
+Appointment Scheduling:          Book slots for physical document verification at processing centers.
+Status Tracking & Notifications: Real-time application tracking with SMS or email status updates.
+Admin & Police Verification:     Tools for officials to review files, run background checks, and approve or reject submissions.
+Non-Functional Requirements
+Security:                   Strong data encryption (SSL/TLS) for personal and financial records, plus role-based access control.
+Performance:                Low latency and high throughput to support thousands of concurrent users during peak hours.
+Reliability & Availability: 99.9% system uptime with automated backup and disaster recovery protocols.
+Usability:                  Simple, responsive interface accessible across modern desktop and mobile browsers.
+Scalability:                Ability to scale server resources vertically or horizontally as applicant volumes grow.
+Software Requirements
+Operating System:            Windows Server / Linux (Ubuntu/RedHat) for backend deployment; Windows 10/11 or macOS for client endpoints.
+Frontend Technologies:       HTML5, CSS3, JavaScript, React, or Angular for responsive user interfaces.
+Backend Technologies:        Node.js, Python (Flask/Django), or Java (Spring Boot) to process application logic.
+Database Management System:  MySQL, PostgreSQL, or Oracle for secure relational data management.
+Web Server:                  Apache Tomcat, Nginx, or IIS.
+Hardware Requirements
+Central Database/Application Servers: High-performance rack servers (Quad-core+ CPU, 32GB+ RAM, Enterprise SSD storage with RAID).
+Client/Admin Workstations:            Standard desktop PCs or laptops (Intel Core i3/i5 or equivalent, 8GB RAM) for data processing.
+Peripherals at Processing Centres:    Document scanners, digital signature pads, biometric fingerprint/iris scanners, and passport-id card printers.
+Network Infrastructure:               High-speed, redundant enterprise internet routers, firewalls, and secure local area network (LAN) setup.
+
+
+3. Usecase diagram
