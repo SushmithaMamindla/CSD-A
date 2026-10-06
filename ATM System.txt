@@ -1,0 +1,42 @@
+                                        ATM System
+Aim
+To design and document a secure, object-oriented Automated Teller Machine (ATM) System using standard software engineering methodologies.
+Problem Statement
+	Traditional Approach: Relying on physical banks and human tellers restricted services to standard working hours, caused long lines, and increased operational costs and human 					errors.
+	Proposed System: A 24/7 automated terminal that connects directly to a central banking server, allowing users to securely check balances, deposit money, and withdraw cash without 			human assistance.
+Objectives
+	High Availability: Deliver 24/7 self-service banking accessible from any location.
+	Robust Security: Protect user accounts using encrypted PIN authentication and secure server communication.
+	Data Integrity: Automate ledger updates to eliminate human error and ensure instantaneous balance synchronization.
+	Speed: Maintain high performance with transaction processing times under 3 seconds.
+System Modules
+	Authentication Module: Reads card data, validates the 4-digit PIN, and locks the card after 3 failed attempts.
+	Transaction Module: Processes core financial tasks including cash withdrawals, deposits, balance inquiries, and fund transfers.
+	Hardware Interface Module: Directs physical operations for the card reader, numeric keypad, and cash dispenser mechanism.
+	Diagnostics & Report Module: Prints transactional receipts and tracks internal health metrics like paper and cash levels.
+Software Requirements Specification (SRS):
+This Software Requirements Specification (SRS) defines the functional, non-functional, and hardware requirements for the Automated Teller Machine (ATM) System, establishing a clear baseline for developers and testers.
+Aim
+	To formulate and document a structured Software Requirements Specification (SRS) encompassing the functional, non-functional, hardware, and software requirements for the ATM 	system.
+Functional Requirements
+	Card Validation: Read chip or magnetic stripe data and verify card expiration status.
+	PIN Authentication: Prompt for a 4-digit PIN and block access after 3 consecutive failed attempts.
+	Cash Withdrawal: Validate account balances against requested amounts and dispense physical cash up to daily limits.
+	Balance Enquiry: Fetch and display real-time current and available account balances.
+	Fund Transfer: Move funds securely between user-linked accounts or to external beneficiaries.
+	Receipt Printing: Issue a thermal printout containing the transaction ID, timestamp, type, and remaining balance.
+Non-Functional Requirements
+	Security: Enforce end-to-end data encryption (e.g., AES/DES) for all PIN entries and network packets.
+	Performance: Restrict system response and transaction verification times to under 3 seconds.
+	Availability: Maintain a 24/7 continuous uptime benchmark of 99.9%.
+	Reliability: Execute automatic transaction rollbacks if cash fails to dispense physically, ensuring zero data corruption.
+Hardware Requirements
+	Input Devices: Magnetic/EMV card reader slot and a secure numeric tactile keypad.
+	Output Devices: high-resolution LCD display screen, motorized cash dispenser unit, and a thermal receipt printer.
+	Core Systems: Central Processing Unit (CPU) motherboard, encrypted PIN pad (EPP) module, and cash vault cassettes.
+Software Requirements
+	Operating System: Windows IoT Enterprise, Linux Embedded, or tailored RTOS (Real-Time Operating System).
+	Database Management: Secure relational database management system (RDBMS) like Oracle DB or MySQL Server for backend record keeping.
+	Development Platform: Java Development Kit (JDK 17+) or C++ Toolchains (GCC/Clang) for cross-platform hardware interaction.
+	Communication Protocol: TCP/IP stack using secure standard ISO 8583 banking messaging frameworks.
+Result: Software Requirements Specification was successfully developed.
