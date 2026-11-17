@@ -1,0 +1,26 @@
+Software Requirement Specification(SRS):
+Functional Requirements:
+User Login
+Registration
+Upload Documents
+Fill Application
+Check Status
+Admin Verification
+Non-Functional Requirements:
+Security
+Reliability
+Availability
+Performance
+Hardware Requirements:
+Processor
+RAM
+Hard disk
+Input devices
+Output devices
+Software Requirements:
+OS
+Front end:HTML/CSS
+Back-end: PHP
+Database: Oracle
+
+
